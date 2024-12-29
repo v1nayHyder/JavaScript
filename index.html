@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Input</title>
+</head>
+<body>
+  <label for="userInput">Enter something:</label>
+  <input type="text" id="userInput">
+  <button onclick="getInput()">Submit</button>
+
+  <script>
+    function getInput() {
+      let input = document.getElementById('userInput').value;
+      console.log(input);
+    }
+  </script>
+</body>
+</html>
